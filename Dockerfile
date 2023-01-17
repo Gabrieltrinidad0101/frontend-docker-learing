@@ -8,6 +8,6 @@ RUN npm install
 
 COPY . .
 
-RUN chmod 777 /user/app/frontend/node_modules
+RUN chmod 777 ./node_modules
 
 CMD ["npm","run","host"]
