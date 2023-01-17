@@ -9,7 +9,7 @@ function App() {
       const info = await res.json();
       setData(info)
     }catch{
-      setData({holaMundo: "API ERROR 123"})
+      setData({holaMundo: "API ERROR"})
     }
   }
   useEffect(_=>{
